@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+.heading {
+  font-size: 48px;
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 0 #d3d3d3;
+  text-align: center;
+  color: #1e293b;
+}
+.search-container {
+  position: relative;
+  width: fit-content;
+  margin-left:125px;
+}
+.search-container input {
+  /* space for the icon */
+  height: 30px;
+  font-size: 16px;
+  background-color: transparent;
+  border-color: #1e293b;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+}
+.search-container img {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  pointer-events: none; /* ensures input still works */
+}
+.align {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 200px;
+  margin-top: 40px;
+  width: 300px;
+  text-align: center;
+}
+.cont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+}

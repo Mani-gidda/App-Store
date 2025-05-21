@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.tab-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-family: Roboto;
+  cursor: pointer;
+}
+.list {
+  list-style-type: none;
+  margin-right: 20px;
+}
+.tab {
+  color:#2563eb;
+  text-decoration: underline;
+}
